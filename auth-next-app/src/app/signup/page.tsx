@@ -1,7 +1,7 @@
 
 export default function SignPage() {
     return (
-        <main className="bg-gray-100 flex justify-center items-center h-screen">
+        <div className="bg-gray-100 flex justify-center items-center h-screen">
             <div className="bg-white p-8 rounded shadow-md w-full sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4">
                 <h1 className="text-2xl font-semibold mb-4">Sign Up</h1>
                 <form>
@@ -22,7 +22,7 @@ export default function SignPage() {
                     </div>
                 </form>
             </div>
-       </main>
+       </div>
        
     )
 }
